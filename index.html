@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
+    ></script>
+    <script
+      language="JavaScript"
+      src="http://www.geoplugin.net/javascript.gp"
+      type="text/javascript"
+    ></script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div class="have">
+      <h4>У меня есть</h4>
+      <div class="wrapper">
+        <div id="RUB" about="RUB">Rub</div>
+        <div id="EUR" about="EUR">Eur</div>
+        <div id="USD" about="USD">Usd</div>
+        <input
+          class="input"
+          type="text"
+          size="40"
+          placeholder="Введите сумму в вашей валюте"
+        />
+      </div>
+
+      <h4 class="youval">Ваша валюта:</h4>
+      <h6 class="course"></h6>
+    </div>
+    <div class="get">
+      <h4>Хочу приобрести</h4>
+      <div class="wrapper">
+        <div id="RUBB" value="RUB">Rub</div>
+        <div id="EURR" value="EUR">Eur</div>
+        <div id="USDD" value="USD">Usd</div>
+      </div>
+      <h4>Получу:</h4>
+      <h4 class="output"></h4>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

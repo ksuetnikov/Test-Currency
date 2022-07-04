@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,800&display=swap");
+
+body {
+  display: flex;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.have {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  border: solid;
+  top: 100px;
+  left: 170px;
+  -webkit-box-shadow: 17px 17px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 17px 17px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 17px 17px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.o {
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.get {
+  position: absolute;
+  top: 100px;
+  left: 720px;
+  width: 500px;
+  height: 300px;
+  border: solid;
+  -webkit-box-shadow: 17px 17px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 17px 17px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 17px 17px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.get .output {
+  border: solid;
+  min-height: 25px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+h4 {
+  text-align: center;
+}
+h6 {
+  text-align: center;
+}
+.wrapper #RUB,
+.wrapper #EUR,
+.wrapper #USD,
+.wrapper #RUBB,
+.wrapper #EURR,
+.wrapper #USDD {
+  cursor: pointer;
+  width: 70px;
+  height: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: wheat;
+  position: relative;
+  margin-bottom: 50px;
+  background: black;
+  overflow: hidden;
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  transition: transform 500ms ease;
+}
+
+.wrapper #RUB:hover,
+.wrapper #EUR:hover,
+.wrapper #USD:hover,
+.wrapper #RUBB:hover,
+.wrapper #EURR:hover,
+.wrapper #USDD:hover {
+  transform: scale(1.2);
+}
